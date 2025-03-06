@@ -1,0 +1,106 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Review</title>
+    <style>
+        .review-container {
+            font-family: Arial, sans-serif;
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 350px;
+            margin: 0 auto;
+        }
+        .stars {
+            color: gold;
+            font-size: 20px;
+        }
+        .text {
+            margin-top: 10px;
+
+        }
+        .half-star {
+            position: relative;
+            display: inline-block;
+        }
+        .half-star:before {
+            content: "★";
+            position: absolute;
+            width: 50%;
+            overflow: hidden;
+        }
+        .half-star:after {
+            content: "☆";
+        }
+        .profile-pic_color {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            margin-right: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            background-size: cover;
+        }
+        .profile-pic_head {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            margin-right: 20px;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-size: cover;
+        }
+        .user-info {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="review-container">
+        2.96 
+        <div class="stars" style="display: inline;">
+            ★★★☆☆
+        </div>
+        (78)
+    </div>
+    
+    
+        <div class="review-container">
+            <div class="user-info">
+                <div class="profile-pic_head" style="background-image: url('Profile_picture/eleinstein_Kopf.png')"></div>
+                <div><strong>Anonym</strong></div>
+            </div>
+            5
+            <div class="stars" style="display: inline;">
+                ★★★★★
+            </div>
+            <div class="text">
+                This is a great python code that quickly generates a Google review page. If you are working with chrome, just click F12 and select the wanted element. 
+            </div>
+        </div>
+        
+        <div class="review-container">
+            <div class="user-info">
+                <div class="profile-pic_color" style="background-color: #F2C744">N</div>
+                <div><strong>name</strong></div>
+            </div>
+            4.3
+            <div class="stars" style="display: inline;">
+                ★★★★☆
+            </div>
+            <div class="text">
+                Click on the tree dots right next to the div container and press on "capture node screenshot". This will save the div container as a png file.
+            </div>
+        </div>
+        
+</body>
+</html>
